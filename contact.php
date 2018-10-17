@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Accueil</title>
+    <title>Contact</title>
   </head>
   <body>
     <nav id="menu">
@@ -14,12 +14,7 @@
         </ul>
     </nav>
     <main>
-        <section id="slider">
-
-        </section>
-        <section id="map">
-
-        </section>
+        
     </main>
     <footer>&copy; Copyright 2018</footer>
   </body>
