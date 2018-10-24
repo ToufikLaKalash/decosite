@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
     <nav id="menu">
@@ -10,7 +11,8 @@
           <li><a href="home.html">Accueil</a></li>
           <li><a href="presentation.html">Présentation</a></li>
           <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="active" href="#">Contact</a></li>
+          <li class="rightm"><a href="legal.html">Mentions légales</a></li>
         </ul>
     </nav>
     <main>

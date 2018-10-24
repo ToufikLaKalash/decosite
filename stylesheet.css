@@ -1,0 +1,80 @@
+/* Mise en forme page */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: 65%;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(233, 221, 221);
+}
+
+/* Mise en forme menu */
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #333;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#menu ul li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+nav#menu ul li.rightm{
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    #menu ul li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+/* Mise en forme contenu */
+
+main{
+    background: url("img/bcg.jpg");
+    margin: auto;
+}
+
+.bloctxt{
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+}
+
+main div.single-item{
+    margin: auto;
+    width: 75%;
+}
+
+main div.single-item div img{
+    margin: auto;
+}
+
+/* Mise en forme galerie */
+
